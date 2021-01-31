@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+html,body,#app,#main{
+    height: 100%;
+    width: 100%;
+}
+
+.el-pagination{
+    margin-top: 15px;
+}
+
+.words-head .el-input{
+    margin-bottom: 20px;
+}
+
+.el-dialog__body{
+    padding: 5px 20px 5px 0 !important;
+}
+
+.el-dialog__footer{
+    padding: 5px 20px 15px 0 !important;
+}
+
+.el-table colgroup>col[name='gutter']{
+    display: none !important;
+}
+
+.el-input.el-input-group.el-input-group--append{
+    width: 100% !important;
+}
+
+.el-autocomplete{
+    width: 90%;
+}
+
+#examination .el-table__body .el-table_1_column_2,
+#words .el-table__body .el-table_1_column_2{
+    font-size: 20px !important;
+}
