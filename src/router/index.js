@@ -8,6 +8,7 @@ const Words=()=>import("@views/words/Words")
 const Marked=()=>import("@views/words/Marked")
 const UnMarked=()=>import("@views/words/UnMarked")
 const Examination=()=>import("@views/words/Examination")
+const Translate=()=>import("@views/words/Translate")
 
 const StudyVolume=()=>import("@views/statistics/StudyVolume")
 const RightVolume=()=>import("@views/statistics/RightVolume")
@@ -33,6 +34,7 @@ const routes = [
       {path:'/studyvolume',component:StudyVolume},
       {path:'/perfect',component:RightVolume},
       {path:'/examination',component:Examination},
+      {path:'/translate',component:Translate},
     ]
   },
 ]

@@ -25,6 +25,9 @@ axios.interceptors.response.use(config=>{
     return config
 })
 
+require('default-passive-events');
+
+
 const app=createApp(App)
 app.use(ElementPlus)
 app.use(Progress)
@@ -34,3 +37,4 @@ app.use(store).use(router).mount('#app')
 app.config.globalProperties.$http=axios
 app.config.globalProperties.$message=ElMessage
 app.config.globalProperties.$confirm=ElMessageBox.confirm
+
